@@ -1,0 +1,68 @@
+
+header {
+    color: white;
+    background: #000;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header h1 {
+    font-weight: 900;
+    font-size: 1.8em;
+}
+
+header h1 span {
+    display: block;
+    text-align: center;
+}
+
+header .foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 30px 0;
+}
+header .contato img{
+    width: 100px;
+    
+}
+
+
+
+header p {
+    max-width: 900px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+    margin: 20px 0px;
+    color: #999;
+    
+}
+
+header .hero-button {
+    background: linear-gradient(90deg, #00f7ff, #0080ff);
+    text-decoration: none;
+    padding: 20px 70px;
+    border-radius: 100px;
+    font-size: 1.7em;
+    font-weight: 900;
+    color: #111;
+    transition: 0.5s;
+    margin: 70px 0px;
+}
+
+
+header .hero-button:hover {
+    transform: scale(1.08);
+    box-shadow: rgba(0, 247, 255, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+        
+    }
+}

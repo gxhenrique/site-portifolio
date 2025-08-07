@@ -1,0 +1,56 @@
+.projetos-conteiner {
+    background-color: #111;
+    
+}
+
+
+
+.projetos-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minMax(350px, 1fr));
+    list-style: none;
+    margin-bottom: 3em;
+    gap: 20px;
+    
+}
+
+.projetos-card .card {
+    background: linear-gradient(90deg, rgba(6, 192, 199, 0.719), #0080ff);
+    border-radius: 30px;
+    padding: 80px 70px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.3s;
+    
+   
+
+}
+
+.projetos-card .card:hover {
+    transform: scale(1.04);
+    transform: translate(1px, 5px);
+}
+
+.projetos-card .card:hover h3 {
+    color: #ffffff;
+}
+
+.projetos-card .card h3 {
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.projetos-card .card .sub-title-card {
+    color: #020202;
+    text-align: center;
+    padding: 20px 3px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .section-title {
+        font-size: 1.7em;
+        
+    }
+}
